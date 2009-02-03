@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+.link_title {
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #006699;
+	display: block;
+	padding-bottom: 5px;
+}
+.link_small {
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #006699;
+}
+
+.link_12px_white {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+.link_11px_white {
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #999999;
+	display: inline;
+	padding-right: 4px;
+	padding-left: 6px;
+}
+.link_11px_white2 {
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #FFFFFF;
+	padding-right: 4px;
+	padding-left: 4px;
+}
+.link_11px_white:hover {
+	text-decoration: none;
+	color: #CCCCCC;
+}
+.link_11px_white2:hover {
+	text-decoration: none;
+}

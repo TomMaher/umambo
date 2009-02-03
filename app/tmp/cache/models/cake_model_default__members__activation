@@ -1,0 +1,2 @@
+1232844453
+a:3:{s:6:"USERID";a:4:{s:4:"type";s:7:"integer";s:4:"null";b:0;s:7:"default";s:1:"0";s:6:"length";i:11;}s:4:"CODE";a:4:{s:4:"type";s:6:"string";s:4:"null";b:0;s:7:"default";s:0:"";s:6:"length";i:80;}s:12:"CONFIRMATION";a:4:{s:4:"type";s:7:"boolean";s:4:"null";b:0;s:7:"default";s:1:"0";s:6:"length";i:1;}}

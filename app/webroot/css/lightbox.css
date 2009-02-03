@@ -1,0 +1,164 @@
+.close {
+	color: #666666;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 6px;
+	float: right;
+	display: block;
+}
+.close:hover {
+	color: #666666;
+	text-decoration: underline;
+}
+
+
+#overlay{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	z-index:1000;
+	background-color:#000000;
+	-moz-opacity: 0.6;
+	opacity:.60;
+	filter: alpha(opacity=60);
+	display: none;
+	cursor:not-allowed;
+}
+#overlay[id]{ /* IE6 and below Can't See This */    position:fixed;    }
+html>body .leightbox { /* IE6 and below Can't See This */
+	position:fixed;
+	display: block;
+}
+
+.leightbox {
+	color: #333;
+	position: absolute;
+	width: 627px;
+	z-index:1001;
+	display: none;
+	top: 50%;
+	left: 50%;
+	margin-left: -318px;
+	margin-top: -80px;
+}
+.leightbox  .background {
+	height: 100%;
+	width: 100%;
+	background-image: url(../../images/alert.png);
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+	display: none;
+}
+.leightbox  .background  .title {
+	background-image: url(../../images/error_login_message.png);
+	background-repeat: no-repeat;
+	height: 105px;
+	width: 100%;
+	background-position: 192px 10px;
+}
+.leightbox    .background   .texta {
+	float: left;
+	width: 342px;
+	height: 65px;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+.leightbox  .top {
+	background-image: url(../../images/new/popups.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 10px;
+	width: 626px;
+}
+.leightbox  .body  .warning_text {
+	background-image: url(../../images/new/alert.png);
+	background-position: 16px 10px;
+	width: 620px;
+	background-repeat: no-repeat;
+	padding-top: 7px;
+	padding-left: 52px;
+}
+.leightbox    .body {
+	background-image: url(../../images/new/popups.png);
+	background-repeat: repeat-y;
+	background-position: -1254px 0px;
+	width: 627px;
+}
+.leightbox   .body   p {
+	margin: 0px;
+	padding: 0px;
+}
+.leightbox   .body   .warning_title {
+	display: block;
+	padding-bottom: 5px;
+}
+.leightbox   .body  .warning_col2 {
+	float: left;
+	width: 605px;
+	background-image: url(../../images/new/popups.png);
+	background-repeat: repeat-y;
+	background-position: -1254px 0px;
+	padding-right: 20px;
+}
+
+.leightbox  .bottom {
+	background-image: url(../../images/new/popups.png);
+	background-repeat: no-repeat;
+	background-position: -627px -10px;
+	height: 16px;
+	width: 626px;
+}
+.warningbt {
+	float: right;
+	margin-left: 2px;
+}
+#popup_box {
+	z-index: 1001;
+}
+#lightbox2  .warning_text {
+	height: 93px;
+}
+#lightbox1  .warning_text {
+	height: 55px;
+}
+.break {
+	sfloat: left;
+	width: 620px;
+	padding-top: 10px;
+}
+.forget {
+	width: 260px;
+	border: 1px solid #FFFFFF;
+	font-size: 12px;
+	color: #666666;
+}
+.forget1 {
+	height: 21px;
+	width: 280px;
+	border: 1px solid #CCCCCC;
+	margin-right: 2px;
+	float: left;
+	padding-top: 1px;
+	padding-left: 2px;
+}
+#loading_gif {
+	float: left;
+	height: 24px;
+	width: 79px;
+	background-image: url(../../images/ajax-loader.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: none;
+}
+.leightbox .body .correct_text {
+	background-image: url(../../images/new/check.jpg);
+	background-position: 16px 10px;
+	width: 620px;
+	background-repeat: no-repeat;
+	padding-top: 7px;
+	padding-left: 52px;
+}

@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.bar_gray      {
+	background-image: url(../img/topbar_1.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+	height: 25px;
+	padding-left: 10px;
+	padding-right: 7px;
+	font-weight: bold;
+	color: #333333;
+	line-height: 25px;
+}
+.box_shadow {
+	background-repeat: repeat-x;
+	background-position: 0px 1px;
+	background-image: url(/../img/shadow_tabs.png);
+}
+.bar_black {
+	background-image: url(../img/new/title_black_100.png);
+	background-repeat: repeat-x;
+	background-position: left top;
+	height: 25px;
+	line-height: 25px;
+	padding-left: 7px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.boxType1 {
+	border: 1px solid #CCC;
+	margin-bottom: 10px;
+	padding: 0px;
+}
+.boxType2 {
+	margin-bottom: 10px;
+	padding: 0px;
+	background-image: url(../img/shadow_tabs.png);
+	background-repeat: repeat-x;
+	background-position: 0px 1px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}

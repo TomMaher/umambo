@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.tx_title_white {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.tx_regular_white {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+.tx_regular_black {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: normal;
+}
+.tx_regular_red {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FF0000;
+	font-weight: normal;
+}
+.tx_small_red {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FF0000;
+	font-weight: normal;
+}
+.tx_title_grey {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	font-weight: bold;
+}
+
+.tx_regular_grey {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	font-weight: normal;
+}
+
+.tx_regular_dark_grey {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #BBB7B7;
+	font-weight: normal;
+}
+.tx_regular_light_grey {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #CCCCCC;
+	font-weight: normal;
+}
+.tx_small_grey {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #535353;
+}

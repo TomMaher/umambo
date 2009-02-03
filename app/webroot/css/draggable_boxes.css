@@ -1,0 +1,146 @@
+.edit {
+	display: block;
+	float: left;
+	width: 20px;
+	height: 27px;
+	padding-right: 3px;
+	background-image: url(../../images/bitis.gif);
+	background-position: -68px 5px;
+	background-repeat: no-repeat;
+	margin-left: 2px;
+	
+}
+.edit:hover{
+	filter:alpha(opacity=50);
+	-moz-opacity:.50;
+	opacity:.50;
+
+}
+.close {
+	display: block;
+	float: left;
+	width: 20px;
+	height: 27px;
+	text-align: center;
+	background-image: url(../../images/bitis.gif);
+	background-position: right 5px;
+	background-repeat: no-repeat;
+	margin-left: 1px;
+}
+.close:hover     {
+
+	color: #FFFFFF;
+	filter:alpha(opacity=50);
+	-moz-opacity:.50;
+	opacity:.50;
+}
+.compact {
+	display: block;
+	float: left;
+	width: 20px;
+	height: 27px;
+	padding-right: 3px;
+	background-image: url(../../images/bitis.gif);
+	background-position: 2px 5px;
+	background-repeat: no-repeat;
+	margin-left: 2px;
+}
+.compact:hover {
+	filter:alpha(opacity=50);
+	-moz-opacity:.50;
+	opacity:.50;
+}
+.mini {
+	display: block;
+	float: left;
+	width: 20px;
+	height: 27px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #E4E4E4;
+	text-decoration: none;
+	text-align: center;
+	letter-spacing: 1px;
+	background-image: url(../../images/bitis.gif);
+	background-repeat: no-repeat;
+	background-position: -46px 5px;
+	
+}
+
+.mini:hover {
+	color: #FFFFFF;
+	filter:alpha(opacity=50);
+	-moz-opacity:.50;
+	opacity:.50;
+}
+
+.groupWrapper
+{
+	min-height: 1300px;
+	float: left;
+		
+}
+.groupWrapper p
+{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+#sort1 {
+
+}
+#sort2 {
+
+}
+.groupItem
+{
+	background-color: #FFFFFF;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.itemHeader 
+{
+	cursor: move;
+}
+.itemContent {
+	overflow: hidden;
+	padding: 8px;
+}
+
+.sortHelper
+{
+	border: 1px dashed #CCCCCC;
+	background-color: #FFFFFF;
+	width: auto !important;
+}
+#buttons {
+	height: 27px;
+	width: 67px;
+	cursor: default;
+	position: absolute;
+	right: 0px;
+	margin-right: 4px;
+}
+.option_button {
+	width: 100%;
+	position: absolute;
+	right: 0px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #003399;
+}
+.op_left {
+	margin-right: 1.8em;
+	height: 37px;
+}
+.op_right {
+	height: 36px;
+	float: right;
+	width: 26px;
+	background-image: url(../../../../images/flecha.gif);
+	background-repeat: no-repeat;
+	background-position: 3px 17px;
+	cursor: pointer;
+}
+#sort3 {
+}

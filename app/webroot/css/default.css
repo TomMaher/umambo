@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #006699;
+	text-decoration: none;
+	outline:none;
+}
+
+a:hover {
+	text-decoration: underline;
+	outline:none;
+}
+
+
+p {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+/* CSS Document */
+
+body {
+	background-color: #E3E3E3;
+	margin: 0px;
+	padding: 0px;
+	height:100%;
+	width:100%;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+
+}
+
+.clear {
+	clear: left;
+}
+
+#container {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 960px;
+	background-repeat: repeat-y;
+	background-position: center top;
+	background-image: url(../../images/backgshadow.png);
+	padding: 0px;
+}
+#page  {
+	height: auto;
+	width: 960px;
+	float: left;
+	min-height:700px;
+	padding-bottom: 30px;
+	background-color: #FFFFFF;
+	background-image: url(../../images/pageTopShadow.png);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+
+
+#loading {
+	background-image: url(../../images/ajax-loader.gif);
+	background-repeat: no-repeat;
+	background-position: center 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #B6B6B6;
+	text-align: center;
+	padding-top: 49px;
+	padding-bottom: 8px;
+	padding-left: 5px;
+}

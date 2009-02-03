@@ -1,0 +1,360 @@
+@charset "utf-8";
+
+.top_buttons1 {
+	display: inline-block;
+	height: 32px;
+	width: 71px;
+	float: left;
+	text-align: center;
+	line-height: 32px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #3D3D3D;
+}
+.top_buttons1:hover {
+	text-decoration: none;
+	background-image: url(../img/header_links.png);
+	background-repeat: repeat-x;
+	background-position: 0px -37px;
+}
+.top_buttons2 {
+	display: inline-block;
+	height: 32px;
+	float: right;
+	text-align: center;
+	line-height: 32px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #3D3C3D;
+	padding-right: 12px;
+	padding-left: 12px;
+}
+.top_buttons2:hover {
+	text-decoration: none;
+	background-image: url(../img/header_links.png);
+	background-repeat: repeat-x;
+	background-position: 0px -37px;
+}
+
+
+.top_banner    {
+	height: 119px;
+	float: left;
+	width: 960px;
+	cursor: default;
+}
+.top_banner #topAds {
+	background-image: url(../img/banners/netflix.png);
+	height: 90px;
+	width: 728px;
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 8px;
+	margin-top: 15px;
+}
+.top_banner  #logo {
+	height: 60px;
+	width: 204px;
+	float: left;
+	margin-top: 30px;
+	background-image: url(file:///Z|/umambo/Umambo%20related/html/admin.umambo.com/images/logo_small.png);
+	background-repeat: no-repeat;
+	display: block;
+	margin-left: 10px;
+}
+
+.top_buttons    {
+	float: left;
+	width: 960px;
+	height: 32px;
+	background-color: #3D3D3D;
+	background-image: url(../img/header_links.png);
+	background-repeat: repeat-x;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #5A585A;
+}
+.top_buttons  #search_input  {
+	width: 264px;
+	float: left;
+	cursor: default;
+	height: 24px;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin-top: 6px;
+	margin-left: 8px;
+	padding-left: 24px;
+	background-image: url(../img/new/search_bar.png);
+	padding-top: 1px;
+}
+.top_buttons  .input_search  {
+	width: 210px;
+	border: 0.5px solid #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	float: left;
+	background-color: #FFFFFF;
+	height: 16px;
+	margin-top: 2px;
+	margin-left: 2px;
+}
+.top_buttons3 {
+	float: left;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	display: block;
+	height: 28px;
+	line-height: 32px;
+	padding-right: 8px;
+	padding-left: 8px;
+	position: relative;
+}
+.top_buttons3:hover {
+	text-decoration: underline;
+}
+#top_buttons4 {
+	display: inline-block;
+	height: 37px;
+	width: 82px;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	background-image: url(url(../img/topLinks2.png));
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+}
+
+#header    {
+	height: 65px;
+	float: left;
+	width: 960px;
+	cursor: default;
+	background-color: #333333;
+}
+
+#header #logo {
+	background-image: url(../img/new/logo.png);
+	float: left;
+	height: 63px;
+	width: 213px;
+	background-repeat: no-repeat;
+	background-position: 10px 5px;
+	display: block;
+}
+#header #sign_in {
+	float: left;
+	padding-top: 15px;
+	padding-left: 5px;
+}
+
+#header #header_right {
+	padding-top: 5px;
+	padding-right: 10px;
+	float: right;
+	width: 500px;
+}
+#header  #header_right #header_user_image {
+	height: 46px;
+	width: 46px;
+	background-image: url(../img/new/guy.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	float: right;
+	margin: 6px;
+	display: block;
+}
+#header #header_right #user_links {
+	float: right;
+	width: 301px;
+	padding-right: 0px;
+	padding-top: 3px;
+	text-align: right;
+	color: #999999;
+	padding-bottom: 5px;
+}
+#header #header_right #search {
+	float: right;
+	width: 296px;
+	padding-right: 0px;
+	background-image: url(../img/new/search_bar.png);
+	height: 22px;
+	background-repeat: no-repeat;
+	padding-left: 6px;
+	padding-top: 1px;
+}
+#header #header_right #search #searchInput {
+	border: 1px solid transparent;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666666;
+	font-size: 12px;
+	width: 260px;
+	background-image: url(../img/new/searchShadow.png);
+	background-repeat: repeat-x;
+	background-position: 0px -1px;
+	padding-left: 0px;
+	float: left;
+}
+#header #header_right #search .searchbt {
+	display: block;
+	float: right;
+	width: 22px;
+	height: 22px;
+}
+
+
+
+#main_bar {
+	background-image: url(../img/grey_bar.png);
+	height: 42px;
+	width: 960px;
+	float: left;
+}
+#main_bar .separator2 {
+	display: block;
+	height: 40px;
+	float: left;
+	line-height: 42px;
+	text-align: center;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	background-image: url(../img/2lines.png);
+	width: 2px;
+}
+#main_bar .main_buttons {
+	display: block;
+	height: 40px;
+	float: left;
+	line-height: 42px;
+	text-align: center;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #585858;
+	width: 80px;
+	font-weight: bold;
+}
+#main_bar .main_buttons:hover {
+	background-color: #E9E9E9;
+}
+#main_bar #qucik_search {
+	float: right;
+	background-image: url(../img/quick_search.png);
+	height: 26px;
+	width: 285px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 6px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 6px;
+	margin-top: 7px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#main_bar      input  {
+	border: 0.5px solid #FBFAF6;
+	margin-top: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	width: 230px;
+	float: left;
+	color: #666666;
+	background-color: #FBFAF6;
+}
+#main_bar  #search_button  {
+	background-image: url(../img/icons2.jpg);
+	display: block;
+	float: right;
+	height: 18px;
+	width: 18px;
+	margin-right: 10px;
+	margin-top: 1px;
+}
+#footer {
+	float: left;
+	height: 50px;
+	width: 960px;
+	background-color: #333333;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin: 0px;
+}
+
+#footer .copyright     {
+	color: #CCCCCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	display: block;
+	width: 800px;
+	float: right;
+	text-align: right;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+#footer .white {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	float: right;
+	padding-right: 8px;
+	padding-left: 8px;
+	padding-top: 5px;
+}
+#footer .white:hover {
+	text-decoration: underline;
+}
+#main_bar .logo_link {
+	display: block;
+	height: 40px;
+	float: left;
+	line-height: 42px;
+	text-align: center;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #585858;
+	width: 100px;
+	font-weight: bold;
+	background-image: url(../img/new/logo2.png);
+	background-repeat: no-repeat;
+	background-position: center 5px;
+}
+#main_bar #qucik_search2 {
+	float: right;
+	background-image: url(../img/quick_search2.png);
+	height: 26px;
+	width: 351px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 6px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 6px;
+	margin-top: 7px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
